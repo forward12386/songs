@@ -66,7 +66,7 @@ export default {
             }
           })
           .catch((err) => {
-            alert("账号或密码错误");
+            alert("err");
             console.log(err);
           });
       }
